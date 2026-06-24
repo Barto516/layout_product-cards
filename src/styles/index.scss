@@ -2,11 +2,13 @@
 @import 'stars';
 @import 'card';
 
-body {
+* {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f8f9fa;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-main;
+  background-color: $color-white;
 }
